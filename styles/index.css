@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#pagina{
+    /* pagina 100% largura */
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    /* pagina com bordas */
+    /* width: 1200px */
+    /* margin: 0 auto; */
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    background-color: black;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px;
+    background-color: aqua;
+    border-radius: 40px;
+    overflow: hidden;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin: 0px 20px;
+    line-height: 40px;
+}
+
+nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0px 10px;
+}
+
+main{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: black 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#banner{
+    width: 100%;
+    height: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#banner img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+h3{
+    margin: 20px 10px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: aliceblue;
+}
